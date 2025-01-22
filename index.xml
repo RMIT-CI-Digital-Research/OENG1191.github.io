@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version="2.0">
     <channel>
-      <title>OENG1191</title>
+      <title>OENG1191 Resource Hub</title>
       <link>https://quartz.jzhao.xyz</link>
-      <description>Last 10 notes on OENG1191</description>
+      <description>Last 10 notes on OENG1191 Resource Hub</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
     <title>Autodesk Revit installtion Guide</title>
     <link>https://quartz.jzhao.xyz/Revit</link>
     <guid>https://quartz.jzhao.xyz/Revit</guid>
-    <description></description>
+    <description>Licensing Go to this website . Click Sign in on top right. In the following Sign in page, click Create account .</description>
     <pubDate>Wed, 22 Jan 2025 11:59:49 GMT</pubDate>
   </item><item>
     <title>OENG1191 Building Information Modelling Resource Hub</title>
     <link>https://quartz.jzhao.xyz/</link>
     <guid>https://quartz.jzhao.xyz/</guid>
-    <description>Welcome to all students who have chosen OENG1191! This website is designed to provide you with all the essential information you need. We hope you find it helpful and informative as you embark on your academic journey.</description>
+    <description> Welcome to all students who have chosen OENG1191! This website is designed to provide you with all the essential information you need. We hope you find it helpful and informative as you embark on your academic journey.</description>
     <pubDate>Wed, 22 Jan 2025 11:12:51 GMT</pubDate>
   </item>
     </channel>
