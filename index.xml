@@ -1,11 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version="2.0">
     <channel>
-      <title>OENG1191 Resource Hub</title>
+      <title>OENG1191 Hub</title>
       <link>https://quartz.jzhao.xyz</link>
-      <description>Last 10 notes on OENG1191 Resource Hub</description>
+      <description>Last 10 notes on OENG1191 Hub</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>Autodesk Software Installation Guide</title>
+    <link>https://quartz.jzhao.xyz/Bentley</link>
+    <guid>https://quartz.jzhao.xyz/Bentley</guid>
+    <description>Create account and get licence Go to this Autodesk website. (Right click and open link in new tab) Click Sign in on top right. In the following Sign in page, click Create account.</description>
+    <pubDate>Wed, 29 Jan 2025 10:54:12 GMT</pubDate>
+  </item><item>
     <title>Code demo</title>
     <link>https://quartz.jzhao.xyz/Code-demo</link>
     <guid>https://quartz.jzhao.xyz/Code-demo</guid>
@@ -21,7 +27,7 @@
     <title>Welcome to OENG1191</title>
     <link>https://quartz.jzhao.xyz/</link>
     <guid>https://quartz.jzhao.xyz/</guid>
-    <description> Welcome to all students who have chosen OENG1191! This website is designed to provide you with all the essential information you need. Hardware Requirements To successfully complete OENG1191, you will need a Windows laptop.</description>
+    <description> Hardware Requirements To successfully complete OENG1191, you will need a Windows laptop. The course utilises numerous industry-specific software applications, many of which are only compatible with Windows and cannot be installed on the desktop computers provided by the uni.</description>
     <pubDate>Wed, 22 Jan 2025 22:35:16 GMT</pubDate>
   </item>
     </channel>
