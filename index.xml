@@ -6,29 +6,41 @@
       <description>Last 10 notes on OENG1191 Hub</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
-    <title>NCP Program</title>
-    <link>https://quartz.jzhao.xyz/NCP</link>
-    <guid>https://quartz.jzhao.xyz/NCP</guid>
-    <description>The New Colombo Plan (NCP) Scholarships are an Australian government initiative that provides funding for undergraduate students to study and undertake internships in the Indo-Pacific ...</description>
-    <pubDate>Fri, 31 Jan 2025 05:42:42 GMT</pubDate>
+    <title>Revizto Platform</title>
+    <link>https://quartz.jzhao.xyz/Revizto</link>
+    <guid>https://quartz.jzhao.xyz/Revizto</guid>
+    <description>Revizto is a cloud-based BIM coordination tool that integrates models, drawings, and issue tracking in one platform. It enhances BIM workflows by enabling real-time collaboration, clash detection, and VR/3D navigation.</description>
+    <pubDate>Fri, 31 Jan 2025 13:26:22 GMT</pubDate>
   </item><item>
-    <title>Code demo</title>
-    <link>https://quartz.jzhao.xyz/Code-demo</link>
-    <guid>https://quartz.jzhao.xyz/Code-demo</guid>
-    <description>This page is to demonstrate the code block: using UnityEngine; public class SimpleController : MonoBehaviour { public float speed = 5.0f; public float rotationSpeed = 100.0f; void ...</description>
-    <pubDate>Wed, 22 Jan 2025 22:37:22 GMT</pubDate>
+    <title>Unity Engine Installation Guide</title>
+    <link>https://quartz.jzhao.xyz/Unity</link>
+    <guid>https://quartz.jzhao.xyz/Unity</guid>
+    <description>Unity is a real-time 3D platform that enhances BIM with interactive visualisation, VR/AR experiences, and real-time rendering. With tools like Unity Reflect, it integrates with BIM software (e.g., Revit, Navisworks) to: Visualise BIM models in real-time with high-quality rendering.</description>
+    <pubDate>Fri, 31 Jan 2025 13:04:09 GMT</pubDate>
   </item><item>
     <title>Autodesk Software Installation Guide</title>
     <link>https://quartz.jzhao.xyz/Autodesk</link>
     <guid>https://quartz.jzhao.xyz/Autodesk</guid>
     <description>Introduction Autodesk is a leading force in the design and BIM industries, widely recognised for its extensive range of software solutions and large global user base ...</description>
-    <pubDate>Wed, 22 Jan 2025 22:37:13 GMT</pubDate>
+    <pubDate>Fri, 31 Jan 2025 12:16:34 GMT</pubDate>
   </item><item>
     <title>Welcome to OENG1191</title>
     <link>https://quartz.jzhao.xyz/</link>
     <guid>https://quartz.jzhao.xyz/</guid>
-    <description> Hardware Requirements To successfully complete OENG1191, you will need a Windows laptop. The course utilises numerous industry-specific software applications, many of which are only compatible with Windows and cannot be installed on the desktop computers provided by the uni.</description>
-    <pubDate>Wed, 22 Jan 2025 22:35:16 GMT</pubDate>
+    <description> Hardware Requirements To complete OENG1191, a Windows laptop is required. Here are the reasons: The course utilises numerous industry-specific software applications, many of which are only compatible with Windows.</description>
+    <pubDate>Fri, 31 Jan 2025 12:16:34 GMT</pubDate>
+  </item><item>
+    <title>NCP Program</title>
+    <link>https://quartz.jzhao.xyz/NCP</link>
+    <guid>https://quartz.jzhao.xyz/NCP</guid>
+    <description>The New Colombo Plan (NCP) Scholarships are an Australian government initiative that provides funding for undergraduate students to study and undertake internships in the Indo-Pacific ...</description>
+    <pubDate>Fri, 31 Jan 2025 12:16:32 GMT</pubDate>
+  </item><item>
+    <title>Code demo</title>
+    <link>https://quartz.jzhao.xyz/Code-demo</link>
+    <guid>https://quartz.jzhao.xyz/Code-demo</guid>
+    <description>This page is to demonstrate the code block: using UnityEngine; public class SimpleController : MonoBehaviour { public float speed = 5.0f; public float rotationSpeed = 100.0f; void ...</description>
+    <pubDate>Wed, 22 Jan 2025 12:59:21 GMT</pubDate>
   </item>
     </channel>
   </rss>
