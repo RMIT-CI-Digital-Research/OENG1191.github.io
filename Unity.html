@@ -1,19 +1,190 @@
 <!DOCTYPE html>
-<html lang="en"><head><title>Unity Engine Installation Guide</title><meta charset="utf-8"/><link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com"/><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM Plex Mono&amp;family=Schibsted Grotesk:wght@400;700&amp;family=Source Sans Pro:ital,wght@0,400;0,600;1,400;1,600&amp;display=swap"/><link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin="anonymous"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/><meta name="og:site_name" content="OENG1191 Hub"/><meta property="og:title" content="Unity Engine Installation Guide"/><meta property="og:type" content="website"/><meta name="twitter:card" content="summary_large_image"/><meta name="twitter:title" content="Unity Engine Installation Guide"/><meta name="twitter:description" content="Unity is a real-time 3D platform that enhances BIM with interactive visualisation, VR/AR experiences, and real-time rendering. With tools like Unity Reflect, it integrates with BIM software (e.g., Revit, Navisworks) to: Visualise BIM models in real-time with high-quality rendering."/><meta property="og:description" content="Unity is a real-time 3D platform that enhances BIM with interactive visualisation, VR/AR experiences, and real-time rendering. With tools like Unity Reflect, it integrates with BIM software (e.g., Revit, Navisworks) to: Visualise BIM models in real-time with high-quality rendering."/><meta property="og:image:type" content="image/webp"/><meta property="og:image:alt" content="Unity is a real-time 3D platform that enhances BIM with interactive visualisation, VR/AR experiences, and real-time rendering. With tools like Unity Reflect, it integrates with BIM software (e.g., Revit, Navisworks) to: Visualise BIM models in real-time with high-quality rendering."/><meta property="og:image:width" content="1200"/><meta property="og:image:height" content="630"/><meta property="og:image:url" content="https://quartz.jzhao.xyz/static/og-image.png"/><meta name="twitter:image" content="https://quartz.jzhao.xyz/static/og-image.png"/><meta property="og:image" content="https://quartz.jzhao.xyz/static/og-image.png"/><meta property="twitter:domain" content="quartz.jzhao.xyz"/><meta property="og:url" content="https://quartz.jzhao.xyz/Unity"/><meta property="twitter:url" content="https://quartz.jzhao.xyz/Unity"/><link rel="icon" href="./static/icon.png"/><meta name="description" content="Unity is a real-time 3D platform that enhances BIM with interactive visualisation, VR/AR experiences, and real-time rendering. With tools like Unity Reflect, it integrates with BIM software (e.g., Revit, Navisworks) to: Visualise BIM models in real-time with high-quality rendering."/><meta name="generator" content="Quartz"/><link href="./index.css" rel="stylesheet" type="text/css" spa-preserve/><link href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" rel="stylesheet" type="text/css" spa-preserve/><script src="./prescript.js" type="application/javascript" spa-preserve></script><script type="application/javascript" spa-preserve>const fetchData = fetch("./static/contentIndex.json").then(data => data.json())</script></head><body data-slug="Unity"><div id="quartz-root" class="page"><div id="quartz-body"><div class="left sidebar"><h2 class="page-title"><a href=".">OENG1191 Hub</a></h2><div class="spacer mobile-only"></div><div class="search"><button class="search-button" id="search-button"><p>Search</p><svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.9 19.7"><title>Search</title><g class="search-path" fill="none"><path stroke-linecap="square" d="M18.5 18.3l-5.4-5.4"></path><circle cx="8" cy="8" r="7"></circle></g></svg></button><div id="search-container"><div id="search-space"><input autocomplete="off" id="search-bar" name="search" type="text" aria-label="Search for something" placeholder="Search for something"/><div id="search-layout" data-preview="true"></div></div></div></div><button class="darkmode" id="darkmode"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="dayIcon" x="0px" y="0px" viewBox="0 0 35 35" style="enable-background:new 0 0 35 35" xml:space="preserve" aria-label="Dark mode"><title>Dark mode</title><path d="M6,17.5C6,16.672,5.328,16,4.5,16h-3C0.672,16,0,16.672,0,17.5    S0.672,19,1.5,19h3C5.328,19,6,18.328,6,17.5z M7.5,26c-0.414,0-0.789,0.168-1.061,0.439l-2,2C4.168,28.711,4,29.086,4,29.5    C4,30.328,4.671,31,5.5,31c0.414,0,0.789-0.168,1.06-0.44l2-2C8.832,28.289,9,27.914,9,27.5C9,26.672,8.329,26,7.5,26z M17.5,6    C18.329,6,19,5.328,19,4.5v-3C19,0.672,18.329,0,17.5,0S16,0.672,16,1.5v3C16,5.328,16.671,6,17.5,6z M27.5,9    c0.414,0,0.789-0.168,1.06-0.439l2-2C30.832,6.289,31,5.914,31,5.5C31,4.672,30.329,4,29.5,4c-0.414,0-0.789,0.168-1.061,0.44    l-2,2C26.168,6.711,26,7.086,26,7.5C26,8.328,26.671,9,27.5,9z M6.439,8.561C6.711,8.832,7.086,9,7.5,9C8.328,9,9,8.328,9,7.5    c0-0.414-0.168-0.789-0.439-1.061l-2-2C6.289,4.168,5.914,4,5.5,4C4.672,4,4,4.672,4,5.5c0,0.414,0.168,0.789,0.439,1.06    L6.439,8.561z M33.5,16h-3c-0.828,0-1.5,0.672-1.5,1.5s0.672,1.5,1.5,1.5h3c0.828,0,1.5-0.672,1.5-1.5S34.328,16,33.5,16z     M28.561,26.439C28.289,26.168,27.914,26,27.5,26c-0.828,0-1.5,0.672-1.5,1.5c0,0.414,0.168,0.789,0.439,1.06l2,2    C28.711,30.832,29.086,31,29.5,31c0.828,0,1.5-0.672,1.5-1.5c0-0.414-0.168-0.789-0.439-1.061L28.561,26.439z M17.5,29    c-0.829,0-1.5,0.672-1.5,1.5v3c0,0.828,0.671,1.5,1.5,1.5s1.5-0.672,1.5-1.5v-3C19,29.672,18.329,29,17.5,29z M17.5,7    C11.71,7,7,11.71,7,17.5S11.71,28,17.5,28S28,23.29,28,17.5S23.29,7,17.5,7z M17.5,25c-4.136,0-7.5-3.364-7.5-7.5    c0-4.136,3.364-7.5,7.5-7.5c4.136,0,7.5,3.364,7.5,7.5C25,21.636,21.636,25,17.5,25z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="nightIcon" x="0px" y="0px" viewBox="0 0 100 100" style="enable-background:new 0 0 100 100" xml:space="preserve" aria-label="Light mode"><title>Light mode</title><path d="M96.76,66.458c-0.853-0.852-2.15-1.064-3.23-0.534c-6.063,2.991-12.858,4.571-19.655,4.571  C62.022,70.495,50.88,65.88,42.5,57.5C29.043,44.043,25.658,23.536,34.076,6.47c0.532-1.08,0.318-2.379-0.534-3.23  c-0.851-0.852-2.15-1.064-3.23-0.534c-4.918,2.427-9.375,5.619-13.246,9.491c-9.447,9.447-14.65,22.008-14.65,35.369  c0,13.36,5.203,25.921,14.65,35.368s22.008,14.65,35.368,14.65c13.361,0,25.921-5.203,35.369-14.65  c3.872-3.871,7.064-8.328,9.491-13.246C97.826,68.608,97.611,67.309,96.76,66.458z"></path></svg></button><div class="explorer desktop-only"><button type="button" id="explorer" data-behavior="collapse" data-collapsed="collapsed" data-savestate="true" data-tree="[]" aria-controls="explorer-content" aria-expanded="false"><h2>Explorer</h2><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fold"><polyline points="6 9 12 15 18 9"></polyline></svg></button><div id="explorer-content"><ul class="overflow" id="explorer-ul"><li><div class="folder-outer open"><ul style="padding-left:0;" class="content" data-folderul><li><div class="folder-outer "><ul style="padding-left:0;" class="content" data-folderul></ul></div></li><li><a href="./Autodesk" data-for="Autodesk">Autodesk Software Installation Guide</a></li><li><a href="./Code-demo" data-for="Code-demo">Code demo</a></li><li><a href="./NCP" data-for="NCP">NCP Program</a></li><li><a href="./Revizto" data-for="Revizto">Revizto Platform</a></li><li><a href="./Unity" data-for="Unity">Unity Engine Installation Guide</a></li></ul></div></li><li id="explorer-end"></li></ul></div></div></div><div class="center"><div class="page-header"><div class="popover-hint"><nav class="breadcrumb-container" aria-label="breadcrumbs"><div class="breadcrumb-element"><a href="./">Home</a><p> ❯ </p></div><div class="breadcrumb-element"><a href>Unity Engine Installation Guide</a></div></nav><h1 class="article-title">Unity Engine Installation Guide</h1><p show-comma="true" class="content-meta"><time datetime="2025-01-31T13:04:09.259Z">Feb 01, 2025</time><span>1 min read</span></p></div></div><article class="popover-hint"><p>Unity is a real-time 3D platform that enhances BIM with interactive visualisation, VR/AR experiences, and real-time rendering. With tools like <strong>Unity Reflect</strong>, it integrates with BIM software (e.g., Revit, Navisworks) to:</p>
+<html lang="en"><head><title>Unity Engine Installation Guide</title><meta charset="utf-8"/><link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com"/><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM Plex Mono&amp;family=Schibsted Grotesk:wght@400;700&amp;family=Source Sans Pro:ital,wght@0,400;0,600;1,400;1,600&amp;display=swap"/><link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin="anonymous"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/><meta name="og:site_name" content="OENG1191 Hub"/><meta property="og:title" content="Unity Engine Installation Guide"/><meta property="og:type" content="website"/><meta name="twitter:card" content="summary_large_image"/><meta name="twitter:title" content="Unity Engine Installation Guide"/><meta name="twitter:description" content="Unity is a real-time 3D platform that enhances BIM with interactive visualisation, VR/AR experiences, and real-time rendering. With tools like Unity Reflect, it integrates with BIM software (e.g., Revit, Navisworks) to: Visualise BIM models in real-time with high-quality rendering."/><meta property="og:description" content="Unity is a real-time 3D platform that enhances BIM with interactive visualisation, VR/AR experiences, and real-time rendering. With tools like Unity Reflect, it integrates with BIM software (e.g., Revit, Navisworks) to: Visualise BIM models in real-time with high-quality rendering."/><meta property="og:image:type" content="image/webp"/><meta property="og:image:alt" content="Unity is a real-time 3D platform that enhances BIM with interactive visualisation, VR/AR experiences, and real-time rendering. With tools like Unity Reflect, it integrates with BIM software (e.g., Revit, Navisworks) to: Visualise BIM models in real-time with high-quality rendering."/><meta property="og:image:width" content="1200"/><meta property="og:image:height" content="630"/><meta property="og:image:url" content="https://quartz.jzhao.xyz/static/og-image.png"/><meta name="twitter:image" content="https://quartz.jzhao.xyz/static/og-image.png"/><meta property="og:image" content="https://quartz.jzhao.xyz/static/og-image.png"/><meta property="twitter:domain" content="quartz.jzhao.xyz"/><meta property="og:url" content="https://quartz.jzhao.xyz/Unity"/><meta property="twitter:url" content="https://quartz.jzhao.xyz/Unity"/><link rel="icon" href="./static/icon.png"/><meta name="description" content="Unity is a real-time 3D platform that enhances BIM with interactive visualisation, VR/AR experiences, and real-time rendering. With tools like Unity Reflect, it integrates with BIM software (e.g., Revit, Navisworks) to: Visualise BIM models in real-time with high-quality rendering."/><meta name="generator" content="Quartz"/><link href="./index.css" rel="stylesheet" type="text/css" spa-preserve/><link href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" rel="stylesheet" type="text/css" spa-preserve/><script src="./prescript.js" type="application/javascript" spa-preserve></script><script type="application/javascript" spa-preserve>const fetchData = fetch("./static/contentIndex.json").then(data => data.json())</script></head><body data-slug="Unity"><div id="quartz-root" class="page"><div id="quartz-body"><div class="left sidebar"><h2 class="page-title"><a href=".">OENG1191 Hub</a></h2><div class="spacer mobile-only"></div><div class="search"><button class="search-button" id="search-button"><p>Search</p><svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.9 19.7"><title>Search</title><g class="search-path" fill="none"><path stroke-linecap="square" d="M18.5 18.3l-5.4-5.4"></path><circle cx="8" cy="8" r="7"></circle></g></svg></button><div id="search-container"><div id="search-space"><input autocomplete="off" id="search-bar" name="search" type="text" aria-label="Search for something" placeholder="Search for something"/><div id="search-layout" data-preview="true"></div></div></div></div><button class="darkmode" id="darkmode"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="dayIcon" x="0px" y="0px" viewBox="0 0 35 35" style="enable-background:new 0 0 35 35" xml:space="preserve" aria-label="Dark mode"><title>Dark mode</title><path d="M6,17.5C6,16.672,5.328,16,4.5,16h-3C0.672,16,0,16.672,0,17.5    S0.672,19,1.5,19h3C5.328,19,6,18.328,6,17.5z M7.5,26c-0.414,0-0.789,0.168-1.061,0.439l-2,2C4.168,28.711,4,29.086,4,29.5    C4,30.328,4.671,31,5.5,31c0.414,0,0.789-0.168,1.06-0.44l2-2C8.832,28.289,9,27.914,9,27.5C9,26.672,8.329,26,7.5,26z M17.5,6    C18.329,6,19,5.328,19,4.5v-3C19,0.672,18.329,0,17.5,0S16,0.672,16,1.5v3C16,5.328,16.671,6,17.5,6z M27.5,9    c0.414,0,0.789-0.168,1.06-0.439l2-2C30.832,6.289,31,5.914,31,5.5C31,4.672,30.329,4,29.5,4c-0.414,0-0.789,0.168-1.061,0.44    l-2,2C26.168,6.711,26,7.086,26,7.5C26,8.328,26.671,9,27.5,9z M6.439,8.561C6.711,8.832,7.086,9,7.5,9C8.328,9,9,8.328,9,7.5    c0-0.414-0.168-0.789-0.439-1.061l-2-2C6.289,4.168,5.914,4,5.5,4C4.672,4,4,4.672,4,5.5c0,0.414,0.168,0.789,0.439,1.06    L6.439,8.561z M33.5,16h-3c-0.828,0-1.5,0.672-1.5,1.5s0.672,1.5,1.5,1.5h3c0.828,0,1.5-0.672,1.5-1.5S34.328,16,33.5,16z     M28.561,26.439C28.289,26.168,27.914,26,27.5,26c-0.828,0-1.5,0.672-1.5,1.5c0,0.414,0.168,0.789,0.439,1.06l2,2    C28.711,30.832,29.086,31,29.5,31c0.828,0,1.5-0.672,1.5-1.5c0-0.414-0.168-0.789-0.439-1.061L28.561,26.439z M17.5,29    c-0.829,0-1.5,0.672-1.5,1.5v3c0,0.828,0.671,1.5,1.5,1.5s1.5-0.672,1.5-1.5v-3C19,29.672,18.329,29,17.5,29z M17.5,7    C11.71,7,7,11.71,7,17.5S11.71,28,17.5,28S28,23.29,28,17.5S23.29,7,17.5,7z M17.5,25c-4.136,0-7.5-3.364-7.5-7.5    c0-4.136,3.364-7.5,7.5-7.5c4.136,0,7.5,3.364,7.5,7.5C25,21.636,21.636,25,17.5,25z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="nightIcon" x="0px" y="0px" viewBox="0 0 100 100" style="enable-background:new 0 0 100 100" xml:space="preserve" aria-label="Light mode"><title>Light mode</title><path d="M96.76,66.458c-0.853-0.852-2.15-1.064-3.23-0.534c-6.063,2.991-12.858,4.571-19.655,4.571  C62.022,70.495,50.88,65.88,42.5,57.5C29.043,44.043,25.658,23.536,34.076,6.47c0.532-1.08,0.318-2.379-0.534-3.23  c-0.851-0.852-2.15-1.064-3.23-0.534c-4.918,2.427-9.375,5.619-13.246,9.491c-9.447,9.447-14.65,22.008-14.65,35.369  c0,13.36,5.203,25.921,14.65,35.368s22.008,14.65,35.368,14.65c13.361,0,25.921-5.203,35.369-14.65  c3.872-3.871,7.064-8.328,9.491-13.246C97.826,68.608,97.611,67.309,96.76,66.458z"></path></svg></button><div class="explorer desktop-only"><button type="button" id="explorer" data-behavior="collapse" data-collapsed="collapsed" data-savestate="true" data-tree="[]" aria-controls="explorer-content" aria-expanded="false"><h2>Explorer</h2><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fold"><polyline points="6 9 12 15 18 9"></polyline></svg></button><div id="explorer-content"><ul class="overflow" id="explorer-ul"><li><div class="folder-outer open"><ul style="padding-left:0;" class="content" data-folderul><li><div class="folder-outer "><ul style="padding-left:0;" class="content" data-folderul></ul></div></li><li><a href="./Autodesk" data-for="Autodesk">Autodesk Software Installation Guide</a></li><li><a href="./Code-demo" data-for="Code-demo">Code demo</a></li><li><a href="./NCP" data-for="NCP">NCP Program</a></li><li><a href="./Revizto" data-for="Revizto">Revizto Platform</a></li><li><a href="./Unity" data-for="Unity">Unity Engine Installation Guide</a></li><li><a href="./Vuforia" data-for="Vuforia">Vuforia Engine installation Guide</a></li></ul></div></li><li id="explorer-end"></li></ul></div></div></div><div class="center"><div class="page-header"><div class="popover-hint"><nav class="breadcrumb-container" aria-label="breadcrumbs"><div class="breadcrumb-element"><a href="./">Home</a><p> ❯ </p></div><div class="breadcrumb-element"><a href>Unity Engine Installation Guide</a></div></nav><h1 class="article-title">Unity Engine Installation Guide</h1><p show-comma="true" class="content-meta"><time datetime="2025-02-03T00:57:17.660Z">Feb 03, 2025</time><span>2 min read</span></p></div></div><article class="popover-hint"><p>Unity is a real-time 3D platform that enhances BIM with interactive visualisation, VR/AR experiences, and real-time rendering. With tools like <strong>Unity Reflect</strong>, it integrates with BIM software (e.g., Revit, Navisworks) to:</p>
 <ul>
 <li><strong>Visualise BIM models</strong> in real-time with high-quality rendering.</li>
 <li><strong>Enable VR/AR experiences</strong> for design reviews and collaboration.</li>
 <li><strong>Simulate construction processes</strong> to improve planning and coordination.</li>
 </ul>
-<h3 id="installation">Installation<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#installation" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
-<p>The Unity website provided a detailed installation workflow:</p>
-<ul>
-<li>Go to <a href="https://unity.com/download" class="external">https://unity.com/download<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
-<li>Download and install <span class="text-highlight">Unity Hub</span>.</li>
-<li>Register an <span class="text-highlight">Unity ID</span> account with your RMIT student email.</li>
-<li>Log in <span class="text-highlight">Unity Hub</span> with your <span class="text-highlight">Unity ID</span>.</li>
-<li>In the <span class="text-highlight">Unity Hub</span>, install <span class="text-highlight">Unity</span>.</li>
-</ul>
+<h3 id="get-unity-hub">Get Unity Hub<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#get-unity-hub" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p>Unity Hub is a tool for managing Unity versions, projects, and services. It is required for installing Unity Engine to ensure compatibility and streamline updates.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th style="text-align:center;">Steps</th><th style="text-align:left;">To do</th></tr></thead><tbody><tr><td style="text-align:center;"><strong>1</strong></td><td style="text-align:left;">Go to Unity download page ==<a href="https://unity.com/download" class="external">Here<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a>==. (Right click and open link in new tab)</td></tr><tr><td style="text-align:center;"><strong>2</strong></td><td style="text-align:left;">Download Unity Hub for Windows</td></tr><tr><td style="text-align:center;"></td><td style="text-align:left;"><img src="./img/Pasted-image-20250203153707.png" width="auto" height="auto" alt/></td></tr><tr><td style="text-align:center;"><strong>3</strong></td><td style="text-align:left;">Run the download file to install.</td></tr><tr><td style="text-align:center;"><strong>4</strong></td><td style="text-align:left;">Start Unity Hub, you should see the page as below:</td></tr><tr><td style="text-align:center;"></td><td style="text-align:left;"><img src="./img/Pasted-image-20250203155412.jpg" width="auto" height="auto" alt/></td></tr></tbody></table></div>
+<h3 id="register-for-unity-id">Register for Unity ID<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#register-for-unity-id" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th style="text-align:center;">Steps</th><th style="text-align:left;">To do</th></tr></thead><tbody><tr><td style="text-align:center;"><strong>5</strong></td><td style="text-align:left;">Click on create account, it will jump to web browser. Follow the steps to create your Unity ID with you RMIT student email.</td></tr><tr><td style="text-align:center;"><strong>6</strong></td><td style="text-align:left;">Then Sign in the Unity Hub with you new Unity ID. The process will bring you back to web browser again to login in, and then you can click <span class="text-highlight">Open Unity Hub</span> to return</td></tr><tr><td style="text-align:center;"></td><td style="text-align:left;"><img src="./img/Pasted-image-20250203160302.png" width="auto" height="auto" alt/></td></tr><tr><td style="text-align:center;"><strong>7</strong></td><td style="text-align:left;">After first log in, Unity Hub will ask you to install a Unity Editor, click on <span class="text-highlight">skip installation</span> for now.</td></tr></tbody></table></div>
+<h3 id="unity-student-plan">Unity Student Plan<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#unity-student-plan" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th style="text-align:center;">Steps</th><th style="text-align:left;">To do</th></tr></thead><tbody><tr><td style="text-align:center;"><strong>8</strong></td><td style="text-align:left;">In Unity Hub, Click the triangle on top left, in the dropdown, click <span class="text-highlight">Manage licenses</span>.</td></tr><tr><td style="text-align:center;"></td><td style="text-align:left;"><img src="./img/Pasted-image-20250203161009.png" width="auto" height="auto" alt/></td></tr><tr><td style="text-align:center;">9</td><td style="text-align:left;">In the new pop-up, click <span class="text-highlight">Add license</span>.</td></tr><tr><td style="text-align:center;"></td><td style="text-align:left;"><img src="./img/Pasted-image-20250203161120.png" width="auto" height="auto" alt/></td></tr><tr><td style="text-align:center;"><strong>10</strong></td><td style="text-align:left;">In the following pop-up, find <span class="text-highlight">Get a Unity Student license</span>.</td></tr><tr><td style="text-align:center;"></td><td style="text-align:left;"><img src="./img/Pasted-image-20250203161207.png" width="auto" height="auto" alt/></td></tr><tr><td style="text-align:center;"><strong>11</strong></td><td style="text-align:left;">This will bring you to web browser. In the new web page, click <span class="text-highlight">Free access: post-secondary</span>.</td></tr><tr><td style="text-align:center;"></td><td style="text-align:left;"><img src="./img/Pasted-image-20250203161306.png" width="auto" height="auto" alt/></td></tr><tr><td style="text-align:center;"><strong>12</strong></td><td style="text-align:left;">You will first encounter the page below. Click on <span class="text-highlight">Continue</span> and follow all the steps until you see the page ==<strong>again</strong>==.</td></tr><tr><td style="text-align:center;"></td><td style="text-align:left;"><img src="./img/Pasted-image-20250203162013.png" width="auto" height="auto" alt/></td></tr><tr><td style="text-align:center;"><strong>13</strong></td><td style="text-align:left;">Click on <span class="text-highlight">Continue</span> again, and you should be directed to a congratulatory page. This means you have successfully completed the process. Now check your email. You should have one email from SheerID and 2 emails from Unity Technologies. The license key for Unity Student seat is in one of the email.</td></tr><tr><td style="text-align:center;"></td><td style="text-align:left;"></td></tr></tbody></table></div>
+<h3 id="activate-your-student-license">Activate your student license<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#activate-your-student-license" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th style="text-align:center;">Steps</th><th style="text-align:left;">To do</th></tr></thead><tbody><tr><td style="text-align:center;"><strong>14</strong></td><td style="text-align:left;">Repeat step 8 and 9. Select <span class="text-highlight">Activate with a serial number</span> this time.</td></tr><tr><td style="text-align:center;"></td><td style="text-align:left;"><img src="./img/Pasted-image-20250203163113.png" width="auto" height="auto" alt/></td></tr><tr><td style="text-align:center;"><strong>15</strong></td><td style="text-align:left;">Fill in your key. You should able to see Pro licence as below:</td></tr><tr><td style="text-align:center;"></td><td style="text-align:left;"><img src="./img/Pasted-image-20250203163230.png" width="auto" height="auto" alt/></td></tr></tbody></table></div>
+<h3 id="install-the-editor">Install the editor<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#install-the-editor" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th style="text-align:center;">Steps</th><th style="text-align:left;">To do</th></tr></thead><tbody><tr><td style="text-align:center;"><strong>16</strong></td><td style="text-align:left;">In Unity Hub, choose <span class="text-highlight">Installs</span> on the left bar, then <span class="text-highlight">Install Editor</span> on the top right.</td></tr><tr><td style="text-align:center;"></td><td style="text-align:left;"><img src="./img/Pasted-image-20250203163501.png" width="auto" height="auto" alt/></td></tr><tr><td style="text-align:center;"><strong>17</strong></td><td style="text-align:left;">Choose to install <span class="text-highlight">Unity 6</span></td></tr><tr><td style="text-align:center;"></td><td style="text-align:left;"><img src="./img/Pasted-image-20250203163600.png" width="auto" height="auto" alt/></td></tr><tr><td style="text-align:center;"><strong>18</strong></td><td style="text-align:left;">In the following page, make sure <span class="text-highlight">Microsoft Visual Studio</span> is checked. And then install the editor.</td></tr></tbody></table></div>
 <blockquote class="callout info" data-callout="info">
 <div class="callout-title">
                   <div class="callout-icon"></div>
@@ -30,5 +201,5 @@
                 C46.042,11.405,47.451,12,49,12c3.309,0,6-2.691,6-6S52.309,0,49,0z M11,9c0-1.103,0.897-2,2-2s2,0.897,2,2s-0.897,2-2,2
                 S11,10.103,11,9z M6,51c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S8.206,51,6,51z M33,49c0,2.206-1.794,4-4,4s-4-1.794-4-4
                 s1.794-4,4-4S33,46.794,33,49z M29,31c-3.309,0-6-2.691-6-6s2.691-6,6-6s6,2.691,6,6S32.309,31,29,31z M47,41c0,1.103-0.897,2-2,2
-                s-2-0.897-2-2s0.897-2,2-2S47,39.897,47,41z M49,10c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S51.206,10,49,10z"></path></svg></button></div><div id="global-graph-outer"><div id="global-graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:-1,&quot;scale&quot;:0.9,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.3,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1,&quot;showTags&quot;:true,&quot;removeTags&quot;:[],&quot;focusOnHover&quot;:true}"></div></div></div><div class="backlinks"><h3>Backlinks</h3><ul class="overflow"><li><a href="./" class="internal">Welcome to OENG1191</a></li></ul></div></div><footer class><p>Created with <a href="https://quartz.jzhao.xyz/">Quartz v4.4.0</a> © 2025</p><ul></ul></footer></div></div></body><script type="application/javascript">function c(){let t=this.parentElement;t.classList.toggle("is-collapsed");let l=t.classList.contains("is-collapsed")?this.scrollHeight:t.scrollHeight;t.style.maxHeight=l+"px";let o=t,e=t.parentElement;for(;e;){if(!e.classList.contains("callout"))return;let n=e.classList.contains("is-collapsed")?e.scrollHeight:e.scrollHeight+o.scrollHeight;e.style.maxHeight=n+"px",o=e,e=e.parentElement}}function i(){let t=document.getElementsByClassName("callout is-collapsible");for(let s of t){let l=s.firstElementChild;if(l){l.addEventListener("click",c),window.addCleanup(()=>l.removeEventListener("click",c));let e=s.classList.contains("is-collapsed")?l.scrollHeight:s.scrollHeight;s.style.maxHeight=e+"px"}}}document.addEventListener("nav",i);window.addEventListener("resize",i);
+                s-2-0.897-2-2s0.897-2,2-2S47,39.897,47,41z M49,10c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S51.206,10,49,10z"></path></svg></button></div><div id="global-graph-outer"><div id="global-graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:-1,&quot;scale&quot;:0.9,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.3,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1,&quot;showTags&quot;:true,&quot;removeTags&quot;:[],&quot;focusOnHover&quot;:true}"></div></div></div><div class="toc desktop-only"><button type="button" id="toc" class aria-controls="toc-content" aria-expanded="true"><h3>Table of Contents</h3><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fold"><polyline points="6 9 12 15 18 9"></polyline></svg></button><div id="toc-content" class><ul class="overflow"><li class="depth-0"><a href="#get-unity-hub" data-for="get-unity-hub">Get Unity Hub</a></li><li class="depth-0"><a href="#register-for-unity-id" data-for="register-for-unity-id">Register for Unity ID</a></li><li class="depth-0"><a href="#unity-student-plan" data-for="unity-student-plan">Unity Student Plan</a></li><li class="depth-0"><a href="#activate-your-student-license" data-for="activate-your-student-license">Activate your student license</a></li><li class="depth-0"><a href="#install-the-editor" data-for="install-the-editor">Install the editor</a></li></ul></div></div><div class="backlinks"><h3>Backlinks</h3><ul class="overflow"><li><a href="./" class="internal">Welcome to OENG1191</a></li></ul></div></div><footer class><p>Created with <a href="https://quartz.jzhao.xyz/">Quartz v4.4.0</a> © 2025</p><ul></ul></footer></div></div></body><script type="application/javascript">function c(){let t=this.parentElement;t.classList.toggle("is-collapsed");let l=t.classList.contains("is-collapsed")?this.scrollHeight:t.scrollHeight;t.style.maxHeight=l+"px";let o=t,e=t.parentElement;for(;e;){if(!e.classList.contains("callout"))return;let n=e.classList.contains("is-collapsed")?e.scrollHeight:e.scrollHeight+o.scrollHeight;e.style.maxHeight=n+"px",o=e,e=e.parentElement}}function i(){let t=document.getElementsByClassName("callout is-collapsible");for(let s of t){let l=s.firstElementChild;if(l){l.addEventListener("click",c),window.addCleanup(()=>l.removeEventListener("click",c));let e=s.classList.contains("is-collapsed")?l.scrollHeight:s.scrollHeight;s.style.maxHeight=e+"px"}}}document.addEventListener("nav",i);window.addEventListener("resize",i);
 </script><script src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/copy-tex.min.js" type="application/javascript"></script><script src="./postscript.js" type="module"></script></html>
