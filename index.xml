@@ -6,29 +6,29 @@
       <description>Last 10 notes on OENG1191 Hub</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
-    <title>Revizto Platform</title>
-    <link>https://quartz.jzhao.xyz/Revizto</link>
-    <guid>https://quartz.jzhao.xyz/Revizto</guid>
-    <description>Revizto is a cloud-based BIM coordination tool that integrates models, drawings, and issue tracking in one platform. It enhances BIM workflows by enabling real-time collaboration, clash detection, and VR/3D navigation.</description>
-    <pubDate>Mon, 03 Feb 2025 00:57:17 GMT</pubDate>
-  </item><item>
     <title>Unity Engine Installation Guide</title>
     <link>https://quartz.jzhao.xyz/Unity</link>
     <guid>https://quartz.jzhao.xyz/Unity</guid>
     <description>Unity is a real-time 3D platform that enhances BIM with interactive visualisation, VR/AR experiences, and real-time rendering. With tools like Unity Reflect, it integrates with BIM software (e.g., Revit, Navisworks) to: Visualise BIM models in real-time with high-quality rendering.</description>
-    <pubDate>Mon, 03 Feb 2025 00:57:17 GMT</pubDate>
-  </item><item>
-    <title>Autodesk Software Installation Guide</title>
-    <link>https://quartz.jzhao.xyz/Autodesk</link>
-    <guid>https://quartz.jzhao.xyz/Autodesk</guid>
-    <description>Introduction Autodesk is a leading force in the design and BIM industries, widely recognised for its extensive range of software solutions and large global user base ...</description>
-    <pubDate>Wed, 22 Jan 2025 22:37:13 GMT</pubDate>
+    <pubDate>Fri, 21 Feb 2025 11:55:08 GMT</pubDate>
   </item><item>
     <title>Welcome to OENG1191</title>
     <link>https://quartz.jzhao.xyz/</link>
     <guid>https://quartz.jzhao.xyz/</guid>
     <description> Hardware Requirements To complete this course, you MUST HAVE a Windows laptop and bring it to class. If you do not have a Windows laptop, please do not enroll.</description>
-    <pubDate>Wed, 22 Jan 2025 22:35:16 GMT</pubDate>
+    <pubDate>Fri, 21 Feb 2025 11:53:00 GMT</pubDate>
+  </item><item>
+    <title>Autodesk Software Installation Guide</title>
+    <link>https://quartz.jzhao.xyz/Autodesk</link>
+    <guid>https://quartz.jzhao.xyz/Autodesk</guid>
+    <description>Introduction Autodesk is a leading force in the design and BIM industries, widely recognised for its extensive range of software solutions and large global user base ...</description>
+    <pubDate>Fri, 21 Feb 2025 11:53:00 GMT</pubDate>
+  </item><item>
+    <title>Revizto Platform</title>
+    <link>https://quartz.jzhao.xyz/Revizto</link>
+    <guid>https://quartz.jzhao.xyz/Revizto</guid>
+    <description>Revizto is a cloud-based BIM coordination tool that integrates models, drawings, and issue tracking in one platform. It enhances BIM workflows by enabling real-time collaboration, clash detection, and VR/3D navigation.</description>
+    <pubDate>Thu, 20 Feb 2025 12:45:23 GMT</pubDate>
   </item>
     </channel>
   </rss>
