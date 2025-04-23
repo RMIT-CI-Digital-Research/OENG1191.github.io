@@ -6,35 +6,35 @@
       <description>Last 10 notes on OENG1191 Hub</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
-    <title>Dynamo Calculation Python Codes</title>
-    <link>https://quartz.jzhao.xyz/Dynamo-Calculation</link>
-    <guid>https://quartz.jzhao.xyz/Dynamo-Calculation</guid>
-    <description>Python script for random panels Full script (copy to dynamo) data = IN[0] true_type = IN[1] false_type = IN[2] key = IN[3] results = [x &gt; key for x in data] types = [true_type if result ...</description>
-    <pubDate>Tue, 22 Apr 2025 07:36:59 GMT</pubDate>
-  </item><item>
-    <title>Unity Engine Installation Guide</title>
-    <link>https://quartz.jzhao.xyz/Unity</link>
-    <guid>https://quartz.jzhao.xyz/Unity</guid>
-    <description>Unity is a real-time 3D platform that enhances BIM with interactive visualisation, VR/AR experiences, and real-time rendering. With tools like Unity Reflect, it integrates with BIM software (e.g., Revit, Navisworks) to: Visualise BIM models in real-time with high-quality rendering.</description>
-    <pubDate>Mon, 10 Mar 2025 11:53:03 GMT</pubDate>
-  </item><item>
     <title>Autodesk Software Installation Guide</title>
     <link>https://quartz.jzhao.xyz/Autodesk</link>
     <guid>https://quartz.jzhao.xyz/Autodesk</guid>
-    <description>Introduction Autodesk is a leading force in the design and BIM industries, widely recognised for its extensive range of software solutions and large global user base ...</description>
-    <pubDate>Mon, 10 Mar 2025 11:51:56 GMT</pubDate>
+    <description>Introduction Autodesk is a leading force in the design and BIM industries, widely recognised for its extensive range of software solutions and large global user base.</description>
+    <pubDate>Wed, 23 Apr 2025 01:48:11 GMT</pubDate>
   </item><item>
-    <title>Welcome to OENG1191</title>
-    <link>https://quartz.jzhao.xyz/</link>
-    <guid>https://quartz.jzhao.xyz/</guid>
-    <description> Week 8 Dynamo Content Dynamo Calculation Hardware Requirements To complete this course, you MUST HAVE a Windows laptop and bring it to class. If you do not have a Windows laptop, please do not enroll.</description>
-    <pubDate>Mon, 10 Mar 2025 11:51:56 GMT</pubDate>
+    <title>Dynamo Calculation Python Codes</title>
+    <link>https://quartz.jzhao.xyz/Dynamo-Calculation</link>
+    <guid>https://quartz.jzhao.xyz/Dynamo-Calculation</guid>
+    <description>Python script for random panels Full script (copy to dynamo) data = IN[0] true_type = IN[1] false_type = IN[2] key = IN[3] results = [x &gt; key for x in data] types = [true_type if result else false_type for result in results] OUT = types Script explained 1.</description>
+    <pubDate>Wed, 23 Apr 2025 01:48:11 GMT</pubDate>
   </item><item>
     <title>Revizto Platform</title>
     <link>https://quartz.jzhao.xyz/Revizto</link>
     <guid>https://quartz.jzhao.xyz/Revizto</guid>
-    <description>Revizto is a cloud-based BIM coordination tool that integrates models, drawings, and issue tracking in one platform. It enhances BIM workflows by enabling real-time collaboration, clash detection, and VR/3D navigation.</description>
-    <pubDate>Mon, 10 Mar 2025 11:51:56 GMT</pubDate>
+    <description>Revizto is a cloud-based BIM coordination tool that integrates models, drawings, and issue tracking in one platform.</description>
+    <pubDate>Wed, 23 Apr 2025 01:48:11 GMT</pubDate>
+  </item><item>
+    <title>Unity Engine Installation Guide</title>
+    <link>https://quartz.jzhao.xyz/Unity</link>
+    <guid>https://quartz.jzhao.xyz/Unity</guid>
+    <description>Unity is a real-time 3D platform that enhances BIM with interactive visualisation, VR/AR experiences, and real-time rendering.</description>
+    <pubDate>Wed, 23 Apr 2025 01:48:11 GMT</pubDate>
+  </item><item>
+    <title>Welcome to OENG1191</title>
+    <link>https://quartz.jzhao.xyz/</link>
+    <guid>https://quartz.jzhao.xyz/</guid>
+    <description> Week 8 Dynamo Content Dynamo Calculation Hardware Requirements To complete this course, you MUST HAVE a Windows laptop and bring it to class.</description>
+    <pubDate>Wed, 23 Apr 2025 01:48:11 GMT</pubDate>
   </item>
     </channel>
   </rss>
